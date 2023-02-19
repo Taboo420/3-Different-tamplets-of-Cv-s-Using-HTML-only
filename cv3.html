@@ -1,0 +1,102 @@
+<!my LinkIn profie to opemn it Please use ctr + click
+https://www.linkedin.com/in/abubakkar-khan-418b3b1b6/ >
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Example 3</title>
+	<style>
+        body{
+            background-image: url(https://assets-prd.ignimgs.com/2023/01/30/ign-uk-daily-deals-january-30-2023-1675079622428.png?width=1920);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+		label {
+			display: block;
+			margin-top: 10px;
+			font-weight: bold;
+		}
+		input, textarea {
+			width: 20%;
+			padding: 10px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		input[type="submit"] {
+			background-color: #008CBA;
+			color: white;
+            margin-bottom: 3px;
+            margin-top: 3px;
+			border: 3px;
+			border-radius: 3px;
+			padding: 10px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #801300;
+		}
+        
+		#social-media-links label {
+			display: inline-block;
+			width: 30px;
+			font-weight: normal;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			text-align: right;
+		}
+		#social-media-links input {
+			width: 100px;
+			margin-right: 20px;
+		}
+        input[type="photo"]:hover {
+			background-color: #801300;
+		}
+		#photo-upload {
+			display: flex;
+			flex-direction: column;
+			align-items: right;
+			margin-top: 10px;
+		}
+		#photo-upload label {
+			margin-bottom: 10px;
+		}
+		#photo-upload img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			margin-top: 10px;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<h1>CV Template</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+		<label for="job-title">Job Title:</label>
+		<input type="text" id="job-title" name="job-title">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone">
+		<label for="address">Address:</label>
+		<textarea id="address" name="address"></textarea>
+		<label for="skills">Skills:</label>
+		<textarea id="skills" name="skills"></textarea>
+		<label for="experience">Experience:</label>
+		<textarea id="experience" name="experience"></textarea>
+		<div id="social-media-links">
+			<label>LinkedIn:</label>
+			<input type="url" name="linkedin">
+			
+		</div>
+		<div id="photo-upload">
+			<label for="photo">Upload a photo:</label>
+			<input type="file" id="photo" name="photo">
+			<img id="preview-photo" src="" alt="Preview of the uploaded photo">
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+	
